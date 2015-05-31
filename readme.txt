@@ -1,15 +1,15 @@
 README
 
-CloudCannon static site editng tutorial theme!
+CloudCannon 静的サイト編集テーマです！
 
-Log into CloudCannon.
+CloudCannonにログインしてください。
 
-Create a new site.
+新しいサイトを作ってください。
 
-Immediately you will arrive in the File Browser. Upload the 5 other files from this .zip file to the 'Home' directory of your site.
+作成してすぐ、ファイルブラウザーが表示されます。 この.zipファイル内の5つのファイルを、作成したサイトのホームフォルダにアップロードしてください。
 
-There is a button at the top right of your screen for opening the uploader but you may find it easiest to simply drag and drop these files into the open CloudCannon tab.
+画面右上にアップローダーを開くボタンがありますが、CloudCannonを開いているタブにファイルをドラッグ&ドロップすれば、簡単シンプルにアップロードできます。
 
-When the files are uploaded, click on the Index.html file to begin your tutorial.
+ファイルがアップロードされたら、Index.htmlファイルをクリックしてチュートリアルをはじめてください。
 
-If you get stuck, email sam@cloudcannon.com
+もしつまづいたら、sam@cloudcannon.com までメールしてください。
