@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<!--
+		*************************************************************************************************************
+		If this is your first time clicking on index.html, you should switch to the Visual Editor view (pencil icon) at top right.
+        
+        If you've been directed here by instructions of this tutorial template, head down to line 81 to get started.
+		*************************************************************************************************************
+		-->
+	<head>
+		<meta charset="utf-8" />
+		<title>CloudCannon チュートリアル テーマ（日本語）</title>
+		<link rel='stylesheet' type='text/css' href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div class="header">
+			<h1>ようこそ、CloudCannonへ！</h1>
+			<h2>これはあなたの練習用チュートリアルサイトです。</h2>
+		</div>
+		<div class="content">
+			<p>CloudCannonは、WebデザイナーとWeb開発者が、顧客や技術に詳しくないチームメンバーに、静的サイトを管理、編集することを、簡単にします。</p>
+			<p>このチュートリアルサイトでは、CloudCannonの基礎をお伝えします。</p>
+            <p>あなたは、このチュートリアルを<strong>「生きた、編集できる静的サイト」</strong>と「既存のWebサイトを編集できるスキル」とともに終えるでしょう。</p>
+            <p>学べること:</p>
+            <ul>
+                <li>サイトコンテンツをCloudCannonで編集すること（あなたのお客さんも）</li>
+                <li>あなたのソースコードに、編集可能なコンテンツを定義する方法、そして</li>
+                <li>CloudCannonでホスティング設定をすること</li>
+            </ul>
+            <p>CloudCannonで作ったサイトにファイルをアップロードする方法はすでに知っていますね ;)</p>
+            <p>では、はじめましょう！</p>
+            <hr />
+			<h3>1. 編集</h3>
+			<p>「編集」は、CloudCannonを使う上で中心となるものです。</p>
+			<p class="editable">私は編集できるテキストです</p>
+			<p>では、CloudCannonのビジュアルエディタを開きましょう（右上の鉛筆マークです）。これはゆくゆくはあなたのクライアントも編集に使う画面です。</p>
+			<p>コンテンツのまわりの黄色い箱は、編集できるということユーザーに示しています。</p>
+			<p>もっともシンプルな編集がテキストです:</p>
+			<p class="editable">ここをクリックして、書き換えてください。</p>
+			<hr />
+			<p>画像も簡単に変更できます。</p>
+			<img class="push_right editable" width="400" height="240" alt="Clouds" src="/uploads/versions/cloud_400x240---(0-0-400-240-400-240)---.jpg" />
+			<p>右にある画像は、編集できます。</p>
+			<p>ビジュアルエディタでは、画像のズームやクロップ（切り取り）、他の画像と置き換えることもできます。.</p>
+            <p class="highlight">メモ：ビジュアルエディタでは、画像サイズやポジションの変更はされません。これは、技術に詳しくないユーザーが、サイトデザインを崩してしまわないようにするためです。</p>
+			<p>では、ズームとクロップ（切り取り）を練習してみましょう。</p>
+            <ol>
+                <li>雲の写真をクリックして、画像編集メニューを出します。</li>
+			    <li>"Alter cloud_400x240.jpg"（Alterは変更するという意味です）を選んでください。選ぶと、ズームとクロップをするためのインターフェースが表示されます。</li>
+			    <li>画像のズームは、右下の角をドラッグするとできます。</li>
+                <li>もとの画像サイズと同じままに、好きな場所へ画像をドラッグして移動することができます。</li>
+                <li>チェックボタンをクリックして、変更を反映します。</li>
+            </ol>
+			<p>いいですね。画像を変更することができました。</p>
+			<p>では、新しい画像に置き換えてみましょう。以下のようにして画像を置き換えることができます:</p>
+			<ul>
+				<li>新しい画像をアップロードする。</li>
+				<li>すでにアップロードした画像の中から選ぶ、もしくは</li>
+				<li>外部URLから画像を読み込む。</li>
+			</ul>
+			<p>雲（Cloud）の画像から大砲（Cannon）の画像に変更してみましょう。</p>
+            <ol>
+                <li>"Use an image from {あなたのサイト名}" を画像編集メニューから選びます。</li>
+                <li>"cannon_400x240.jpg" という名前の画像を探し、選びます。</li>
+			    <li>画像の大きさは同じですので、今回はクロップせずに、完了させます。</li>
+            </ol>
+			<p>今度は、「雲と大砲」の画像で置き換えてみましょう。</p>
+            <ol>
+			    <li>次のURLをコピーしてください: http://upload.wikimedia.org/wikipedia/commons/0/0f/Cloud2_(5966977597).jpg</li>
+                <li>画像編集メニューを開いて、"Use an image from another website." を選択します。</li>
+			    <li>入力欄にさきほどコピーしたURLを貼り付けます。</li>
+			    <li>この画像は少しだけ大きさが違うので、位置をクロップして調整し、完了します。</li>
+            </ol>
+			<p class="highlight">他にもたくさんの編可能な要素（headersやspan, lists, divなど）があります。また、繰り返し可能なエリア（repeatables）も設定できます。ですが、ここでは基礎だけにとどめておきます。</p>
+            <hr />
+			<h3>2. 編集を追加する</h3>
+			<p>下のテキストは、「編集されたがって」います。でも今はできません。黄色い箱がありません。それはつまり、class="editable"が無いということです。</p>
+			<!--
+				*************************************************************************************************************
+				Add class="editable" inside the <p> tag of the paragraph directly below.
+				*************************************************************************************************************
+				-->
+			<p>私は編集して欲しいテキストです！</p>
+			<!--
+				*************************************************************************************************************
+				It should look like this: <p class="editable">I want to be editable text!</p>.
+
+				   When you have completed that, follow the next commented instruction.
+				*************************************************************************************************************
+				-->
+			<p>コードエディタに切り替え（右上にある、2つの山括弧アイコン）、HTMLファイルの81行目にあるコメントを読んでください。編集されたがっているテキストに、class="editable"を追加する方法について教えてくれるでしょう。</p>
+			<!--
+				*********************************************************************************************************
+				While we’re in the Code Editor let’s make this image below editable as well.
+
+				Add the "editable" class inside the <img> tag. Note you can use "editable" in addition to other classes.
+				*********************************************************************************************************
+				-->
+			<img class="push_right" width="200" height="267" alt="egg" src="egg_200x267.jpg" />
+			<!--
+				*********************************************************************************************************
+				It should look something like this: <img class="push_right editable" width="400" height="533" alt="egg" src="egg_400x533.jpg" />
+
+				      Now go back to the Visual Editor to see the changes you've made to the text and the image.
+				*********************************************************************************************************
+				-->
+			<p>class="editable" 正しくを追加できたら、テキスト、画像を編集できるようになります。</p>
+			<p>このテキストを他のものに変更してください。</p>
+			<p>画像も変更してください。置き換える画像は以下をおすすめします。<br /> http://upload.wikimedia.org/wikipedia/commons/2/27/Chicken_free_range_1.jpg</p>
+			<p class="highlight">ファイルを編集するために、コードエディタを使う必要はありません。ローカルの好きなエディタで編集し、GitHub, Dropbox, FTPを使って同期することができます。</p>
+			<hr />
+			<h3>3. 保存</h3>
+			<p>保存をすることなく、ビジュアルエディタとコードエディタを行き来していたことに気づいていましたか？すごいでしょ？</p>
+			<p>エディタを離れる前には、保持されていた変更を保存する必要があります。</p>
+			<p>保存はシンプルで、右上のフロッピーのアイコンをクリックするだけです。これでファイルがきちんと保存され、さらに、サイトを同期している場所にアップロードされます。</p>
+            <hr />
+			<h3>4. ホスティング</h3>
+			<p>今はこのサイトは、CloudCannonでホスティングされており、インターネット上で閲覧することができます。いつそんな設定が済んでいたの！？って信じられないくらい、超簡単でしょう？</p>
+			<p>CloudCannonで作ったすべてのサイトは、無料のテストドメインとホスティングがついています。</p>
+            <p>左上のサイト名の横に、このサイトのURLが表示されています。</p>
+			<p>URLをクリックしてこのサイトにアクセスすると（パスワード設定が必要なら済ませてください）、その後、新しいタブで開かれたこのサイトから、戻ってきてください。</p>
+            <p class="highlight">無料プランのサイトには、強制的にパスワードが必要です。サイトを閲覧するにはパスワードを設定してください。</p>
+            <hr />
+			<h3>5. やってみよう</h3>
+			<p>おかえりなさい。</p>
+			<p>もう慣れたんじゃないですか？</p>
+			<p>でも、サイトプレビューでは編集可能なエリアはどれもクリックできなかったでしょう？</p>
+			<p>サイトプレビューを新しいタブで開いたまま、CloudCannonのビジュアルエディターに戻りましょう。</p>
+			<p>編集可能なエリアで変更を加えてみましょう。</p>
+			<p>保存します。</p>
+			<p>左上の青いアイコンが、緑になるのを待ちます。</p>
+			<p>サイトプレビューのタブを更新します。</p>
+            <p>変更をチェックすると...</p>
+			<p>イェーーイ！CloudCannonマジックです。</p>
+            <hr />
+			<h3>6. 自由な小鳥のように羽ばたこう</h3>
+			<p>これでCloudCannonのチュートリアルは終わりです。</p>
+			<p>あなたのウェブサイトをシンプルに編集できるスキルを、あなたは身につけました。</p>
+			<p>おめでとうございます。</p>
+			<p>まだ触れていない重要な機能として、<a href="http://docs.cloudcannon.com/#sharing1_share_with_content_writerhtml">クライアント/技術に詳しくないユーザーとの共有</a>、<a href="http://docs.cloudcannon.com/#common_tasks1_custom_domainshtml">独自ドメインの追加</a>などがあります。これらは、左側メニューの "Website Settings" （歯車のアイコンです）から簡単にできます。どちらもCloudCannonの有料プランです。</p>
+			<p><a href="http://docs.cloudcannon.com">ドキュメント</a>では、リダイレクトの設定や、ファイルのインクルード、フォームなどの、開発者にとって大変なタスクについても解説しています。</p>
+			<p>もし、ブログや、もう少し複雑なウェブサイトを作るつもりなら、<a href="http://docs.cloudcannon.com/#jekyll1_introhtml">Jekyll beta</a>の情報もチェックしてみてください。</p>
+			<p>自由にこのチュートリアルサイトは削除していただき（Website Settingsのメニュー内にあります）、あなたの新しいサイトをアップロードしてください。</p>
+			<p>最後に、もし助けの手が必要なら、いつでも、どんな時でも<a href="mailto:support@cloudcannon.com">support@cloudcannon.com</a>に連絡できます。お話できることを楽しみにしています。</p>
+			<p>Cheers,</p>
+			<p>Mike, George, Sam, Tim &amp; Ross<br />
+				The CloudCannon team
+			</p>
+			<!--
+				*********************************************************************************************************
+				Image Attributions:
+
+				cloud_400x240.jpg: resized from http://commons.wikimedia.org/wiki/File:Above_the_Clouds.jpg
+				cannon_400x240.jpg: resized and cropped from http://commons.wikimedia.org/wiki/File:Cannon_Fire.jpg
+				egg_200x267.jpg: resized from http://commons.wikimedia.org/wiki/File:Egg.jpg
+
+				Thank you to these photographers!
+
+				*********************************************************************************************************
+				-->
+		<p></p></div>
+	</body>
+</html>
